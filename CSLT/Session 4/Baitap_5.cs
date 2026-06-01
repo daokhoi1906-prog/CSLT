@@ -37,7 +37,6 @@ namespace CSLT.Session_4
             {
                 giaithua *= i;
             }
-
             Console.WriteLine($"Giai thua cua {gt} la: {giaithua}");
 
             //Bai5: Dao nguoc chuoi ky tu
@@ -67,7 +66,6 @@ namespace CSLT.Session_4
                     }
                 }
             }
-
             Console.WriteLine($"So {songuyento} co la so nguyen to hay khong: {check}");
 
             //Bai7: In day Fibonacci
@@ -127,7 +125,6 @@ namespace CSLT.Session_4
                 }
                 result = 1 / result;
             }
-
             Console.WriteLine($"Ket qua la: {result}");
 
             //Bai10: Tinh diem trung binh cua mang
@@ -151,7 +148,6 @@ namespace CSLT.Session_4
             bool doixung = s == nguoc;
             Console.WriteLine($"Chuoi {s} co phai doi xung hay khong: {doixung}");
 
-
             //Bai12: Chuyen doi nhiet do
             Console.Write("Nhap nhiet do can chuyen doi (C): ");
             double c = double.Parse(Console.ReadLine());
@@ -168,7 +164,6 @@ namespace CSLT.Session_4
                     min = mangmin[i];
                 }
             }
-
             Console.WriteLine("Gia tri nho nhat trong mang la: " + min);
 
             //Bai14: Tinh tong cac chu so cua mot so nguyen
@@ -250,7 +245,6 @@ namespace CSLT.Session_4
             {
                 namnhuan = true;
             }
-
             Console.WriteLine($"Nam {nam} la nam nhuan: {namnhuan}");
 
             //Bai20: Dem so tu trong cau
@@ -259,7 +253,6 @@ namespace CSLT.Session_4
             string[] words = cau.Split(' ', StringSplitOptions.RemoveEmptyEntries);
             int demtu = words.Length;
             Console.WriteLine($"Ket qua la: {demtu}");
-
         }
     }
 }
