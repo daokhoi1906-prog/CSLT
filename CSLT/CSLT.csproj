@@ -5,12 +5,11 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject></StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Session 9\" />
     <Folder Include="Session 8\" />
-    <Folder Include="Session 7\" />
     <Folder Include="Session 4\" />
   </ItemGroup>
 
